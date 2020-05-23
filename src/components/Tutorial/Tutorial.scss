@@ -1,0 +1,28 @@
+@import "../../shared";
+
+.Tutorial {
+    position:fixed;
+    z-index:16;
+    top:0;
+    bottom:0;
+    left:-100%;
+    width:100%;
+    background:rgba($color-grey14, 0.95);
+    opacity:0;
+    transition:opacity $effect-slide-duration linear, left $effect-slide-duration $effect-slide;
+    cursor:pointer;
+
+    body.show-tutorial & {
+        opacity:1;
+        left:0;
+    }
+
+    &__wrapper {
+        max-width:$bp-max;
+        margin:auto;
+    }
+
+    img {
+        width: 100%;
+    }
+}

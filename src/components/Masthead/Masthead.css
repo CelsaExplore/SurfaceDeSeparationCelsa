@@ -1,0 +1,76 @@
+@font-face {
+  font-family: lato_reg;
+  src: url("../Text/font/Lato-Regular.ttf"); }
+
+.Masthead {
+  position: absolute;
+  bottom: 20px;
+  z-index: 12;
+  display: table;
+  width: 90%;
+  left: 5%;
+  font-family: lato_reg; }
+  @media (min-height: 640px) {
+    .Masthead {
+      top: 90px; } }
+  @media (orientation: landscape) and (min-width: 640px) {
+    .Masthead {
+      top: 60px; } }
+  .Masthead__item {
+    display: table-row;
+    font-size: 10px;
+    line-height: 15px; }
+  .Masthead__label {
+    font-size: 15px;
+    display: table-cell;
+    text-align: right;
+    vertical-align: top;
+    color: #87F8D0;
+    width: 48%;
+    padding-right: 2%;
+    padding-top: 10px; }
+    @media (min-height: 640px) {
+      .Masthead__label {
+        font-size: 25px;
+        line-height: 28px;
+        padding-top: 15px; } }
+    @media (orientation: landscape) and (min-width: 640px) {
+      .Masthead__label {
+        font-size: 25px;
+        line-height: 28px;
+        padding-top: 15px; } }
+    .Masthead__item--full .Masthead__label {
+      font-family: "DIN-EQP-Light";
+      font-size: 13px;
+      line-height: 16px;
+      font-weight: normal;
+      display: inline-block;
+      width: auto;
+      padding-top: 0;
+      padding-right: 0; }
+  .Masthead__details {
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+    color: #fff;
+    padding-top: 10px; }
+    @media (min-height: 640px) {
+      .Masthead__details {
+        font-size: 25px;
+        line-height: 30px;
+        padding-top: 15px; } }
+    @media (orientation: landscape) and (min-width: 640px) {
+      .Masthead__details {
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 15px; } }
+    .Masthead__item--full .Masthead__details {
+      display: block;
+      width: 200%;
+      padding-top: 5px;
+      text-align: center; }
+      @media (orientation: landscape) and (min-width: 640px) {
+        .Masthead__item--full .Masthead__details {
+          width: 150%;
+          text-align: center;
+          padding-left: 50%; } }

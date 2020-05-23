@@ -1,0 +1,23 @@
+.Element {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: inherit;
+  transition: left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .Board__slide--first .Element {
+    left: 50%;
+    transform: translateX(-50%); }
+  html.no-hiddenscroll .Element {
+    transition: left 1s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .Element img {
+    margin-top: -2%;
+    height: 102%; }
+  .Element--zm2 {
+    z-index: 8; }
+  .Element--zm1 {
+    z-index: 9; }
+  .Element--zp1 {
+    z-index: 11; }
+  .Element--zp2 {
+    z-index: 12; }

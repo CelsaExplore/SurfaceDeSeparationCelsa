@@ -1,0 +1,24 @@
+@import "../../shared";
+
+.Edito {
+    position:relative;
+    z-index:12;
+    max-width:$bp-phone;
+    margin:auto;
+
+    &__wrapper {
+        position:relative;
+    }
+
+    .Board__slide:not(.Board__slide--middle) & {
+        height:inherit;
+
+        .Edito__wrapper {
+            position:absolute;
+        }
+    }
+
+    .Title {
+        margin-bottom:10px;
+    }
+}

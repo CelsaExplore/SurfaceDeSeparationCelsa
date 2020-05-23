@@ -1,0 +1,21 @@
+@import "../../shared";
+
+.Cover {
+    position:absolute;
+    z-index:15;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    background:url('./img/couverture_mobile.png') no-repeat center;
+    background-size:cover;
+    transition:left $effect-slide-duration $effect-slide;
+
+    @media (orientation: landscape) and (min-width: $bp-phablet) {
+        background-image:url('./img/couverture_web.png');
+    }
+
+    body.show-cover & {
+        left:0;
+    }
+}

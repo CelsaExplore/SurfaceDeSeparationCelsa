@@ -1,0 +1,38 @@
+.SplashScreen {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #101010;
+  transition: left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transform: translateZ(0); }
+  html.no-hiddenscroll .SplashScreen {
+    transition: left 0.5s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  body.is-ready .SplashScreen {
+    left: -100%; }
+  .SplashScreen__logo {
+    position: absolute;
+    width: 260px;
+    top: 50%;
+    margin-top: -25px;
+    left: 50%;
+    margin-left: -130px;
+    animation-name: fadeIn;
+    animation-timing-function: ease-out;
+    animation-duration: 2s; }
+    .SplashScreen__logo img {
+      width: 100%; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes flip {
+  from {
+    transform: rotateY(0deg); }
+  to {
+    transform: rotateY(-180deg); } }

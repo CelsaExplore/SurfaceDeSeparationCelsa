@@ -1,0 +1,13 @@
+.Edito {
+  position: relative;
+  z-index: 12;
+  max-width: 480px;
+  margin: auto; }
+  .Edito__wrapper {
+    position: relative; }
+  .Board__slide:not(.Board__slide--middle) .Edito {
+    height: inherit; }
+    .Board__slide:not(.Board__slide--middle) .Edito .Edito__wrapper {
+      position: absolute; }
+  .Edito .Title {
+    margin-bottom: 10px; }

@@ -1,0 +1,126 @@
+.Board_web {
+  position: relative;
+  display: table;
+  width: auto;
+  height: inherit;
+  max-height: 1080px;
+  box-sizing: border-box;
+  transition: left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transform: translateZ(0);
+  overflow: hidden;
+  background-image: url("./img/fondWeb.jpg");
+  background-size: cover; }
+  html.no-hiddenscroll .Board_web {
+    transition: left 1s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  body:not(.is-ready) .Board_web {
+    display: none; }
+  body.is-sharing .Board_web {
+    filter: blur(2px); }
+  .Board_web__slide {
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+    table-layout: fixed;
+    box-sizing: border-box;
+    min-width: inherit;
+    max-width: inherit;
+    height: inherit;
+    padding: 0; }
+    .Board_web__slide--middle {
+      vertical-align: middle; }
+    .Board_web__slide--bottom {
+      vertical-align: bottom; }
+  .Board_web:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+.BoutonLeftWeb {
+  position: absolute;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-image: url("./img/fleche_gauche.png");
+  background-size: contain;
+  height: 63px;
+  width: 89px;
+  top: 50%;
+  left: 20%;
+  z-index: 12;
+  margin: auto;
+  transform: translateY(-50%); }
+  .BoutonLeftWeb:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 50px); }
+
+.BoutonRightWeb {
+  position: absolute;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-image: url("./img/fleche_droite.png");
+  background-size: contain;
+  height: 63px;
+  width: 89px;
+  top: 50%;
+  left: 40%;
+  z-index: 12;
+  margin: auto;
+  transform: translateY(-50%); }
+  .BoutonRightWeb:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 50px); }
+
+.Panini {
+  position: absolute;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  object-fit: cover;
+  z-index: 12; }
+  .Panini:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 50px); }
+
+.card-container {
+  cursor: pointer;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 0%;
+  left: 0%;
+  perspective: 600px; }
+
+.card {
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out; }
+
+.card:hover {
+  transform: rotateY(180deg); }
+
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%; }
+
+.card .back {
+  transform: rotateY(180deg); }

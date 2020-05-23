@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "DIN-EQP-Light";
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-Light.eot");
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-Light.eot#iefix") format("embedded-opentype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Light.woff") format("woff"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Light.ttf") format("truetype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Light.svg#DIN-EQP-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: "DIN-EQP-Regular";
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-Regular.eot");
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-Regular.eot#iefix") format("embedded-opentype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Regular.woff") format("woff"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Regular.ttf") format("truetype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Regular.svg#DIN-EQP-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: "DIN-EQP-Condensed";
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-Condensed.eot");
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-Condensed.eot#iefix") format("embedded-opentype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Condensed.woff") format("woff"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Condensed.ttf") format("truetype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Condensed.svg#DIN-EQP-Condensed") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: "DIN-EQP-Medium";
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-Medium.eot");
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-Medium.eot#iefix") format("embedded-opentype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Medium.woff") format("woff"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Medium.ttf") format("truetype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Medium.svg#DIN-EQP-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: "DIN-EQP-MediumCond";
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-MediumCond.eot");
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-MediumCond.eot#iefix") format("embedded-opentype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-MediumCond.woff") format("woff"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-MediumCond.ttf") format("truetype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-MediumCond.svg#DIN-EQP-MediumCond") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: "DIN-EQP-Bold";
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-Bold.eot");
+  src: url("https://www.lequipe.fr/common/fonts/DIN-EQP-Bold.eot#iefix") format("embedded-opentype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Bold.woff") format("woff"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Bold.ttf") format("truetype"), url("https://www.lequipe.fr/common/fonts/DIN-EQP-Bold.svg#DIN-EQP-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+#app-root {
+  position: fixed;
+  width: 100%;
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden; }

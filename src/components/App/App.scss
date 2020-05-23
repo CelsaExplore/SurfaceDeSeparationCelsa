@@ -1,0 +1,14 @@
+@import "../../shared";
+
+.App {
+    width:inherit;
+    height:inherit;
+    background:$color-grey1;
+
+    &__swipeable {
+        position:absolute;
+        width:inherit;
+        height:inherit;
+        -webkit-tap-highlight-color:transparent;
+    }
+}

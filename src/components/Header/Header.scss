@@ -1,0 +1,89 @@
+@import "../../shared";
+
+.Header {
+    position:fixed;
+    width:100%;
+    box-sizing:border-box;
+    top:0;
+    left:0;
+    z-index:16;
+    padding: 10px $border-content 10px $border-content;
+
+    body.is-sharing & {
+        background:$color-white;
+    }
+
+    &__wrapper {
+        max-width:$bp-max;
+        margin:auto;
+    }
+
+    &__logo {
+        float:left;
+
+        img {
+            height: 21px;
+            float:left;
+            border:none;
+        }
+    }
+
+    &__icons {
+        float:right;
+    }
+
+    &__icon {
+        display:inline-block;
+        width:24px;
+        height:24px;
+        line-height:24px;
+        text-align:center;
+        vertical-align:middle;
+        color:$color-grey13;
+        text-decoration:none;
+        margin-left:15px;
+        transition:color 0.15s linear, opacity 0.25s linear;
+        background:$color-grey1;
+        border-radius:100%;
+        opacity:1;
+
+        &:before {
+            font-family: 'FontAwesome';
+            font-size:16px;
+        }
+
+        &--home {
+            body.show-cover & {
+                opacity:0;
+            }
+
+            &:before {
+                content:'\f015';
+            }
+        }
+
+        &--sharer {
+
+            &:before {
+                content:'\f1e0';
+                margin-left:-2px;
+            }
+        }
+
+        &--bookmarker {
+
+            body.show-cover &:not(.is-active) {
+                opacity:0;
+            }
+
+            &:before {
+                content:'\f097';
+            }
+
+            &.is-active:before {
+                content:'\f02e';
+                color:$color-red;
+            }
+        }
+    }
+}

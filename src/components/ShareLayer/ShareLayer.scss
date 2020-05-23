@@ -1,0 +1,59 @@
+@import "../../shared";
+
+.ShareLayer {
+    position:fixed;
+    z-index:15;
+    top:100%;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba($color-grey14, 0.95);
+    opacity:0;
+    transition:opacity 0.25s linear;
+
+    body.is-sharing & {
+        opacity:1;
+        top:$height-header;
+    }
+
+    &__close {
+        position:absolute;
+        top:10px;
+        right:10px;
+        display:inline-block;
+        width:20px;
+        height:20px;
+        border:3px solid $color-white;
+        border-radius:100%;
+        color:$color-white;
+        text-decoration:none;
+        text-align:center;
+
+        &:before {
+            display:inline-block;
+            content:'\f00d';
+            font-size:16px;
+            line-height:19px;
+            font-family:'FontAwesome';
+        }
+    }
+
+    &__wrapper {
+        position:relative;
+        width:80px;
+        height:200px;
+        margin:auto;
+        top:150px;
+        text-align:center;
+    }
+
+    &__label {
+        @include font(medium, 16, 20);
+        color:$color-white;
+        margin-bottom:20px;
+    }
+
+    &__icon {
+        margin-bottom:20px;
+    }
+}

@@ -1,0 +1,47 @@
+@import "../../shared";
+
+.SplashScreen {
+    position:fixed;
+    z-index:20;
+    top:0;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:$color-grey14;
+    transition:left $effect-slide-duration $effect-slide;
+    transform:translateZ(0);
+
+    html.no-hiddenscroll & {
+        transition:left $effect-scroll-duration/2 $effect-scroll;
+    }
+
+    body.is-ready & {
+        left:-100%;
+    }
+
+    &__logo {
+        position:absolute;
+        width:260px;
+        top:50%;
+        margin-top:-25px;
+        left:50%;
+        margin-left:-130px;
+        animation-name:fadeIn;
+        animation-timing-function:ease-out;
+        animation-duration:2s;
+
+        img {
+            width:100%;
+        }
+    }
+}
+
+@keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+@keyframes flip {
+    from {transform:rotateY(0deg);}
+    to {transform:rotateY(-180deg);}
+}

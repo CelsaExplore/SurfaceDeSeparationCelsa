@@ -1,0 +1,82 @@
+// COLORS
+$color-white: #fff;
+$color-grey1: #f8f8f8;
+$color-grey2: #f0f0f0;
+$color-grey3: #eee;
+$color-grey4: #ddd;
+$color-grey5: #ccc;
+$color-grey6: #bbb;
+$color-grey7: #aaa;
+$color-grey8: #909090;
+$color-grey9: #808080;
+$color-grey10: #606060;
+$color-grey11: #404040;
+$color-grey12: #303030;
+$color-grey13: #202020;
+$color-grey14: #101010;
+$color-black: #000;
+$color-red: #d61e00;
+$color-brick: #b44040;
+$color-salmon: #e8957c;
+$color-pink: #e19ac3;
+$color-violet: #a78bc0;
+$color-yellow: #fff482;
+$color-aqua: #75acda;
+$color-blue: #3973b9;
+$color-green: #3fa535;
+$color-apple: #74b959;
+$color-mango: #fbbd51;
+$color-orange: #e5801c;
+
+$color-explore: #c6aa57;
+
+// BREAK POINTS
+$bp-min: 320px;
+$bp-phone: 480px;
+$bp-phablet: 640px;
+$bp-tablet: 768px;
+$bp-desktop: 960px;
+$bp-max: 1600px;
+
+// SIZES
+$height-header: 42px;
+$height-inter-blocks: 40px;
+$border-content: 10px;
+
+// FONTS
+$fonts: (
+    'light': 'DIN-EQP-Light',
+    'regular': 'DIN-EQP-Regular',
+    'regularCond': 'DIN-EQP-Condensed',
+    'medium': 'DIN-EQP-Medium',
+    'mediumCond': 'DIN-EQP-MediumCond',
+    'bold': 'DIN-EQP-Bold'
+);
+
+// EFFECTS
+$effect-slide: cubic-bezier(0.39, 0.575, 0.565, 1); // http://easings.net/fr#easeInOutCubic
+$effect-slide-duration: 0.6s;
+$effect-scroll: cubic-bezier(0.39, 0.575, 0.565, 1); // http://easings.net/fr#easeOutSine
+$effect-scroll-duration: 1s;
+
+// MIXINS
+@mixin fontimport($font-family) {
+    @font-face {
+        font-family: $font-family;
+        src: url('https://www.lequipe.fr/common/fonts/' + $font-family + '.eot');
+        src: url('https://www.lequipe.fr/common/fonts/'+ $font-family +'.eot#iefix') format('embedded-opentype'),
+        url('https://www.lequipe.fr/common/fonts/'+ $font-family +'.woff') format('woff'),
+        url('https://www.lequipe.fr/common/fonts/'+ $font-family +'.ttf') format('truetype'),
+        url('https://www.lequipe.fr/common/fonts/'+ $font-family +'.svg#'+ $font-family) format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+    }
+}
+
+@mixin font($font-family, $font-size: 14, $line-height: $font-size) {
+    font-family: map-get($fonts, $font-family);
+    font-size: $font-size + px;
+    line-height: $line-height + px;
+    font-weight: normal;
+}

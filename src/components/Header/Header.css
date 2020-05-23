@@ -1,0 +1,52 @@
+.Header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  z-index: 16;
+  padding: 10px 10px 10px 10px; }
+  body.is-sharing .Header {
+    background: #fff; }
+  .Header__wrapper {
+    max-width: 1600px;
+    margin: auto; }
+  .Header__logo {
+    float: left; }
+    .Header__logo img {
+      height: 21px;
+      float: left;
+      border: none; }
+  .Header__icons {
+    float: right; }
+  .Header__icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    color: #202020;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.15s linear, opacity 0.25s linear;
+    background: #f8f8f8;
+    border-radius: 100%;
+    opacity: 1; }
+    .Header__icon:before {
+      font-family: 'FontAwesome';
+      font-size: 16px; }
+    body.show-cover .Header__icon--home {
+      opacity: 0; }
+    .Header__icon--home:before {
+      content: '\f015'; }
+    .Header__icon--sharer:before {
+      content: '\f1e0';
+      margin-left: -2px; }
+    body.show-cover .Header__icon--bookmarker:not(.is-active) {
+      opacity: 0; }
+    .Header__icon--bookmarker:before {
+      content: '\f097'; }
+    .Header__icon--bookmarker.is-active:before {
+      content: '\f02e';
+      color: #d61e00; }

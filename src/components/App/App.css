@@ -1,0 +1,9 @@
+.App {
+  width: inherit;
+  height: inherit;
+  background: #f8f8f8; }
+  .App__swipeable {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    -webkit-tap-highlight-color: transparent; }
