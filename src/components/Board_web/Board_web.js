@@ -250,6 +250,7 @@ export default class Board_web extends Component {
 
                     <div className="Board__slide Board__slide--top">
                         <Edito content="<p>De l’Albanais Riza Lushta (1932-1934), formé</p><p>au club avant de devenir l’avant-centre</p><p>de la Juventus Turin, au Serbe Xhevat Prekazi</p><p>(1970-1975), parti ensuite au Partizan</p><p>Belgrade, les légendes ne manquent pas dans</p><p>l’histoire du club. Durant ses meilleures</p><p>années, le FK Trepca envoie même des joueurs</p><p>en équipe nationale et jouit d’une popularité</p><p>qui dépasse les frontières du Kosovo.</p>" positionTop="15%" positionLeft="-10%"/>
+                        <Element name="click_web.png" positionLeft="100%"/>
                     </div>
 
                     <div className="Board__slide Board__slide--top">
@@ -330,7 +331,7 @@ export default class Board_web extends Component {
                     </div>
 
                     <div className="Board__slide Board__slide--top">
-                        <Edito content="<p style='color:white'>Un jardin aménagé a remplacé les pavés</p><p style='color:white'>et les barricades, mais les blindés de la Kosovo</p><p style='color:white'>Force (KFOR) surveillent toujours le pont</p><p style='color:white'>de Mitrovica. Fermé à la circulation routière,</p><p style='color:white'>il demeure, vingt ans après la fin de la guerre,</p><p style='color:white'><b>le symbole de la fracture ethnique,</b></p><p style='color:white'><b>politique et religieuse</b> qui a touché la ville.</p>" positionTop="15%" positionLeft="-20%"/>
+                        <Edito content="<p style='color:white'>Un jardin aménagé a remplacé les pavés</p><p style='color:white'>et les barricades, mais les blindés de la Kosovo</p><p style='color:white'>Force (KFOR) surveillent toujours le pont</p><p style='color:white'>de Mitrovica. En juin 1999, les troupes de l’OTAN</p><p style='color:white'>divisent la ville en deux et l’Ibar fait alors office</p><p style='color:white'>de frontière naturelle entre Serbes et Albanais.</p><p style='color:white'>Fermé à la circulation routière, le pont demeure,</p><p style='color:white'>vingt ans après la fin de la guerre,</p><p style='color:white'><b>le symbole de la fracture ethnique,</b></p><p style='color:white'><b>politique et religieuse</b> qui a touché la ville.</p>" positionTop="15%" positionLeft="-50%"/>
                         <Element name="pont_web.png" positionLeft="0%" positionTop="2%"/>
                     </div>
 
@@ -573,6 +574,7 @@ export default class Board_web extends Component {
 
                     <div className="Board__slide Board__slide--top">
                         <Edito content="<p>De l’Albanais Riza Lushta (1932-1934), formé</p><p>au club avant de devenir l’avant-centre</p><p>de la Juventus Turin, au Serbe Xhevat Prekazi</p><p>(1970-1975), parti ensuite au Partizan</p><p>Belgrade, les légendes ne manquent pas dans</p><p>l’histoire du club. Durant ses meilleures</p><p>années, le FK Trepca envoie même des joueurs</p><p>en équipe nationale et jouit d’une popularité</p><p>qui dépasse les frontières du Kosovo.</p>" positionTop="15%" positionLeft="-80%"/>
+                        <Element name="click_web.png" positionLeft="55%"/>
                     </div>
 
                     <div className="Board__slide Board__slide--top">
@@ -651,7 +653,7 @@ export default class Board_web extends Component {
                     </div>
 
                     <div className="Board__slide Board__slide--top">
-                        <Edito content="<p style='color:white'>Un jardin aménagé a remplacé les pavés</p><p style='color:white'>et les barricades, mais les blindés de la Kosovo</p><p style='color:white'>Force (KFOR) surveillent toujours le pont</p><p style='color:white'>de Mitrovica. Fermé à la circulation routière,</p><p style='color:white'>il demeure, vingt ans après la fin de la guerre,</p><p style='color:white'><b>le symbole de la fracture ethnique,</b></p><p style='color:white'><b>politique et religieuse</b> qui a touché la ville.</p>" positionTop="15%" positionLeft="-50%"/>
+                        <Edito content="<p style='color:white'>Un jardin aménagé a remplacé les pavés</p><p style='color:white'>et les barricades, mais les blindés de la Kosovo</p><p style='color:white'>Force (KFOR) surveillent toujours le pont</p><p style='color:white'>de Mitrovica. En juin 1999, les troupes de l’OTAN</p><p style='color:white'>divisent la ville en deux et l’Ibar fait alors office</p><p style='color:white'>de frontière naturelle entre Serbes et Albanais.</p><p style='color:white'>Fermé à la circulation routière, le pont demeure,</p><p style='color:white'>vingt ans après la fin de la guerre,</p><p style='color:white'><b>le symbole de la fracture ethnique,</b></p><p style='color:white'><b>politique et religieuse</b> qui a touché la ville.</p>" positionTop="15%" positionLeft="-50%"/>
                         <Element name="pont_web.png" positionLeft="-6%" positionTop="2%"/>
                     </div>
 

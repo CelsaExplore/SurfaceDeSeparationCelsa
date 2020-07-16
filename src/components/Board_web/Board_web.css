@@ -43,7 +43,7 @@
   border: none;
   background-image: url("./img/fleche_gauche.png");
   background-size: contain;
-  height: 63px;
+  height: 89px;
   width: 89px;
   top: 50%;
   left: 20%;
@@ -66,7 +66,7 @@
   border: none;
   background-image: url("./img/fleche_droite.png");
   background-size: contain;
-  height: 63px;
+  height: 89px;
   width: 89px;
   top: 50%;
   left: 40%;

@@ -287,6 +287,7 @@ export default class Board extends Component {
 
                 {/*Slide 19*/}
                 <div className="Board__slide Board__slide--top">
+                    <Element name="click_mobile.png" positionLeft="-30%"/>
                     <Edito content="<p style='color:#EB445C'>LE TEMPS DU SUCCÈS</p>" contents="<p>Lorsque Serbes et Albanais évoluaient</p><p>ensemble, le FK Trepca a remporté de</p><p>nombreux titres.</p>" positionTop="15%" positionLeft="10%" ti={true}/>
                     <Element name="graphique_hitoire_mobile.png" positionLeft="5%"/>
                 </div>
@@ -325,7 +326,7 @@ export default class Board extends Component {
 
                 {/*Slide 26*/}
                 <div className="Board__slide Board__slide--top">
-                    <Edito content="<p style='color:white'>Un jardin aménagé a remplacé les pavés</p><p style='color:white'>et les barricades, mais les blindés de la Kosovo</p><p style='color:white'>Force (KFOR) surveillent toujours le pont</p><p style='color:white'>de Mitrovica. Fermé à la circulation routière,</p><p style='color:white'>il demeure, vingt ans après la fin de la guerre,</p><p style='color:white'><b>le symbole de la fracture ethnique,</b></p><p style='color:white'><b>politique et religieuse</b> qui a touché la ville.</p>" positionTop="15%" positionLeft="5%"/>
+                    <Edito content="<p style='color:white'>Un jardin aménagé a remplacé les pavés</p><p style='color:white'>et les barricades, mais les blindés de la Kosovo</p><p style='color:white'>Force (KFOR) surveillent toujours le pont</p><p style='color:white'>de Mitrovica. En juin 1999, les troupes de l’OTAN</p><p style='color:white'>divisent la ville en deux et l’Ibar fait alors office</p><p style='color:white'>de frontière naturelle entre Serbes et Albanais.</p><p style='color:white'>Fermé à la circulation routière, le pont demeure,</p><p style='color:white'>vingt ans après la fin de la guerre,</p><p style='color:white'><b>le symbole de la fracture ethnique,</b></p><p style='color:white'><b>politique et religieuse</b> qui a touché la ville.</p>" positionTop="15%" positionLeft="5%"/>
                     <Element name="pont_mobile.png"/>
                 </div>
 

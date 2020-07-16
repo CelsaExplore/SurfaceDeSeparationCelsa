@@ -41,10 +41,10 @@
   background-repeat: no-repeat;
   background-position: center;
   border: none;
-  background-image: url("./img/gauche.png");
+  background-image: url("./img/fleche_gauche.png");
   background-size: contain;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
   z-index: 12;
   margin: auto;
   top: 90%;
@@ -64,10 +64,10 @@
   background-repeat: no-repeat;
   background-position: center;
   border: none;
-  background-image: url("./img/droite.png");
+  background-image: url("./img/fleche_droite.png");
   background-size: contain;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
   z-index: 12;
   margin: auto;
   top: 90%;
